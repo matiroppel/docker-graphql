@@ -53,10 +53,3 @@ jobs:
          docker push matiroppel88/docker-graphql:$NEW_VERSION
          docker push matiroppel88/docker-graphql
           echo "New version: $NEW_VERSION !!!"
-         
-
-    
-        
-        
-    # - name: Build the Docker image
-    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
